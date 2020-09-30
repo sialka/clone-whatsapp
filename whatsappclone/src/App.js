@@ -18,13 +18,13 @@ export default () => {
 
   const [chatlist, setChatList ] = useState([]);
   const [activeChat, setActiveChat] = useState({});
-  /* teste
+  // teste
   const [user, setUser] = useState({
     id : 'C6TX1Pcy6BMbInctSopokaLSpiF2',
     name: 'Sidnei Monteiro',
     avatar: 'https://graph.facebook.com/3496442360423339/picture',
-  });*/
-  const [user, setUser] = useState(null);
+  });
+  // const [user, setUser] = useState(null);
   const [showNewChat, setShowNewChat] = useState(false);
 
   useEffect(()=>{
